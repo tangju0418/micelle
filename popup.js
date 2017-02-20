@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var checkPageButton = document.getElementById('checkPage');
+    // checkPageButton.value = chrome.i18n.getMessage("appName");
     checkPageButton.addEventListener('click', function() {
 
         chrome.tabs.getSelected(null, function(tab) {

@@ -1,17 +1,21 @@
 {
     "manifest_version": 2,
 
-    "name": "Micelle",
+    "name": "__MSG_appName__",
     "description": "A extension to manage your bookmarks.",
     "version": "1.0",
 
+    "default_locale": "zh_CN",
+
     "browser_action": {
-        "default_icon": "img/icon.png",
-        "default_popup": "popup.html"
+        "default_icon": "images/icon.png",
+        "default_popup": "popup.html",
+        "default_title": "Micelle: for bookmarks."
     },
 
     "permissions": [
         "activeTab",
+        "bookmarks",
         "https://ajax.googleapis.com/"
     ]
 }
